@@ -1,0 +1,57 @@
+.form {
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    height: 88px;
+    padding: 8px;
+    color: #161414;
+    background: #fff;
+    border-radius: 12px;
+
+    &__input-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 255px;
+        padding: 15px 20px 16px 56px;
+        background-repeat: no-repeat;
+        background-position: 16px 24px;
+
+        &--location {
+            width: 300px;
+            background-image: url('../../img/icons/map.svg');
+        }
+
+        &--activity {
+            background-image: url('../../img/icons/activity.svg');
+        }
+
+        &--date {
+            background-image: url('../../img/icons/calendar.svg');
+        }
+
+        &--guests {
+            background-image: url('../../img/icons/guests.svg');
+        }
+    }
+
+    &__label {
+        font-weight: 300;
+        line-height: 1.14;
+        color: #5b5b5b;
+    }
+
+    &__input,
+    &__select {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    &__input {
+
+        &::placeholder {
+            color: #161414;
+        }
+    }
+
+    &__select {}
+}

@@ -68,8 +68,37 @@
 
                 <div class="form__input-wrapper form__input-wrapper--location">
                     <label class="form__label" for="location">Location</label>
-                    <input class="form__input" id="location" type="text">
+                    <input class="form__input" id="location" type="text" placeholder="Explore nearby destinations">
                 </div>
+
+                <div class="form__input-wrapper form__input-wrapper--activity">
+                    <label class="form__label" for="activity">Activity</label>
+                    <select class="form__select" id="activity" name="activity">
+                        <option value="all">All Activities</option>
+                        <option value="culture">Culture</option>
+                        <option value="sport">Sport</option>
+                        <option value="extreme">Extreme</option>
+                    </select>
+                </div>
+
+                <div class="form__input-wrapper form__input-wrapper--date">
+                    <label class="form__label" for="date">When</label>
+                    <input class="form__input" id="date" type="date" placeholder="Choose a Date">
+                </div>
+
+                <div class="form__input-wrapper form__input-wrapper--guests">
+                    <label class="form__label" for="guests">Guests</label>
+                    <select class="form__select" id="guests" name="guests">
+                        <option value="1">1 guest</option>
+                        <option value="2">2 guest</option>
+                        <option value="3">3 guest</option>
+                        <option value="4">4 guest or more</option>
+                    </select>
+                </div>
+
+                <button class="button button--search">
+                    <img src="img/icons/search.svg" alt="Search">
+                </button>
 
             </form>
 
