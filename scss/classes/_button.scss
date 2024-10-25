@@ -1,0 +1,20 @@
+.button {
+    color: #fff;
+    background: #7b61ff;
+    border-radius: 12px;
+    transition: background-color .2s ease-in;
+
+    &:hover {
+        background-color: #6344ff;
+    }
+
+    &--huge {
+        padding: 24px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.3;
+    }
+}

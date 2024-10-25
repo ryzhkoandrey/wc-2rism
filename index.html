@@ -14,11 +14,64 @@
     <header class="header">
         <div class="container container--header">
 
-            <div>Nav</div>
+            <nav class="nav">
 
-            <div>Title</div>
+                <a class="logo" href="#">
+                    <img src="img/logo/logo.svg" alt="2rism">
+                </a>
 
-            <div>Form</div>
+                <ul class="nav-list">
+                    <li class="nav-list__item">
+                        <a class="nav-list__link nav-list__link--active" href="#">Home</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#">Hotels</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#">Restaurants</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#">Tours</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#">Destinations</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#">Activities</a>
+                    </li>
+                    <li class="nav-list__item">
+                        <a class="nav-list__link" href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="user">
+                    <div class="user__content">
+                        <span class="user__greeting">Holla,</span>
+                        <span class="user__name">Ales Nesetril</span>
+                    </div>
+                    <div class="user__avatar">
+                        <img class="user__img" src="img/header/user.jpg" alt="Avatar">
+                    </div>
+                </div>
+
+            </nav>
+
+            <div class="header__content">
+                <h1 class="header__title">Discover the most engaging places</h1>
+                <button class="button button--huge">
+                    <img src="img/icons/global.svg" alt="">
+                    Discover on 3D Globe
+                </button>
+            </div>
+
+            <form class="form" action="#">
+
+                <div class="form__input-wrapper form__input-wrapper--location">
+                    <label class="form__label" for="location">Location</label>
+                    <input class="form__input" id="location" type="text">
+                </div>
+
+            </form>
 
         </div>
     </header>
