@@ -5,16 +5,20 @@
 @import 'global/reset';
 @import 'global/base';
 
-// classes
+// libs
 
-@import 'classes/none';
-@import 'classes/container';
-@import 'classes/nav';
-@import 'classes/logo';
-@import 'classes/nav-list';
-@import 'classes/user';
-@import 'classes/button';
-@import 'classes/form';
+@import '../libs/autoComplete/css/autoComplete.01';
 
-@import 'classes/header';
-@import 'classes/footer';
+// blocks
+
+@import 'blocks/none';
+@import 'blocks/container';
+@import 'blocks/nav';
+@import 'blocks/logo';
+@import 'blocks/nav-list';
+@import 'blocks/user';
+@import 'blocks/button';
+@import 'blocks/form';
+
+@import 'blocks/header';
+@import 'blocks/footer';
