@@ -1,0 +1,15 @@
+.section {
+
+    &__header {
+        margin-bottom: 64px;
+    }
+
+    &__cards {
+        display: grid;
+        gap: 32px;
+
+        &--popular {
+            grid-template-columns: repeat(6, 1fr);
+        }
+    }
+}
