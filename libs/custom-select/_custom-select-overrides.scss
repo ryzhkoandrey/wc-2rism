@@ -1,0 +1,8 @@
+.custom-select-opener {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.custom-select-panel {
+    transition: max-height .2s ease-out, overflow-y 0.1s 0.5s;
+}

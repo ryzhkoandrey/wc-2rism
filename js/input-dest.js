@@ -1,4 +1,4 @@
-// AUTOCOMPLETE
+// Countries
 
 const countryList = [
     'Afghanistan',
@@ -251,6 +251,8 @@ const countryList = [
     'Zimbabwe',
     'Åland Islands',
 ];
+
+// AutoComplete
 
 const autoCompleteJS = new autoComplete({
     selector: '#location',
