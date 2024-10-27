@@ -10,6 +10,7 @@
         text-transform: capitalize;
         color: #fff;
         opacity: 0.7;
+        transition: opacity .2s;
 
         &:hover {
             opacity: 1;

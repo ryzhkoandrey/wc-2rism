@@ -1,0 +1,25 @@
+.button-more {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 10px;
+    height: 44px;
+    font-size: 16px;
+    color: #5243c2;
+    background: #f6f4ff;
+    border-radius: 12px;
+    border: 1px dashed #f6f4ff;
+
+    &:hover {
+        background: #fff;
+        border-color: #5243c2;
+
+        img {
+            transform: rotate(-360deg);
+        }
+    }
+
+    img {
+        transition: all .2s;
+    }
+}
