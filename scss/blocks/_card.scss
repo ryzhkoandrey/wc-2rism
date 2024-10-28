@@ -21,22 +21,83 @@
         &--hotel {
             margin-bottom: 10px;
         }
+
+        &--activities {
+            margin-bottom: 16px;
+        }
+
+        &--no-margin {
+            margin: 0;
+        }
+    }
+
+    &__desc {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
     }
 
     &__title {
         font-weight: 500;
         font-size: 16px;
+        color: #161414;
         transition: color .2s;
 
         &--hotel {
             margin-bottom: 12px;
         }
+
+        &--activities {
+            margin-bottom: 0;
+        }
+
+        &--big {
+            font-weight: 600;
+            font-size: 20px;
+        }
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 2;
+        color: #5b5b5b;
     }
 
     &__footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        &--wide {
+            margin-top: auto;
+            justify-content: flex-start;
+            gap: 24px;
+        }
+    }
+
+    &__footer-link {
+        position: relative;
+        z-index: 1;
+        padding-left: 20px;
+        font-size: 12px;
+        color: #878787;
+        transition: color .2s;
+
+        &:hover {
+            color: #7b61ff;
+        }
+
+        &--date {
+            background: url('../../img/icons/calendar-gray.svg') no-repeat left 1px;
+        }
+
+        &--author {
+            background: url('../../img/icons/user.svg') no-repeat left 1px;
+        }
+
+        &--comments {
+            background: url('../../img/icons/comment.svg') no-repeat left 1px;
+        }
     }
 
     &__location {
@@ -52,7 +113,7 @@
 
         &--icon {
             padding-left: 20px;
-            background: url('../../img/icons/map-pin-line.svg') no-repeat left 1px;
+            background: url('../img/icons/map-pin-line.svg') no-repeat left 1px;
         }
     }
 
@@ -60,5 +121,11 @@
         display: flex;
         align-items: center;
         gap: 2px;
+    }
+
+    &--wide {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
     }
 }

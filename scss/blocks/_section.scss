@@ -11,12 +11,16 @@
         display: grid;
         gap: 32px;
 
-        &--popular {
-            grid-template-columns: repeat(6, 1fr);
+        &--2-in-row {
+            grid-template-columns: repeat(2, 1fr);
         }
 
-        &--hotels {
+        &--4-in-row {
             grid-template-columns: repeat(4, 1fr);
+        }
+
+        &--6-in-row {
+            grid-template-columns: repeat(6, 1fr);
         }
     }
 }
