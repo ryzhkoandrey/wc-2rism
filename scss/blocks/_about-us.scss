@@ -1,0 +1,25 @@
+.about-us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin: 0 auto;
+    max-width: 1144px;
+
+    &__desc {}
+
+    &__title {
+        font-weight: 600;
+        font-size: 32px;
+        color: #161414;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 2;
+        color: #5b5b5b;
+    }
+
+    &__img {
+        border-radius: 24px;
+    }
+}
