@@ -1,5 +1,9 @@
 .autoComplete_wrapper > input {
 
+    @media (max-width: 1230px) {
+        width: auto;
+    }
+
     &::placeholder {
         color: #161414;
     }

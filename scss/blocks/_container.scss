@@ -9,5 +9,10 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+
+        @media (max-width: 1139px) {
+            justify-content: flex-start;
+            gap: 90px;
+        }
     }
 }
