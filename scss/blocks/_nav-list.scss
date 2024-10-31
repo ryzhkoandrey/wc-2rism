@@ -3,6 +3,10 @@
     align-items: center;
     gap: 54px;
 
+    @media (max-width: 1140px) {
+        display: none;
+    }
+
     &__item {}
 
     &__link {

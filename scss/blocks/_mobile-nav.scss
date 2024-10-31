@@ -1,0 +1,34 @@
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    // right: -320px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 320px;
+    height: 100%;
+    padding: 40px;
+    background-color: #141d22;
+    transition: all .3s ease-in;
+
+    &__list {
+        display: grid;
+        gap: 20px;
+        text-transform: capitalize;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    a.active,
+    a:hover {
+        color: #a998ff;
+    }
+
+    &--open {
+        right: 0;
+    }
+}

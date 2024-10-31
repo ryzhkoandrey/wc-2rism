@@ -4,4 +4,11 @@
     align-items: center;
     gap: 30px;
     width: 100%;
+
+    &__user {
+
+        @media (max-width: 1140px) {
+            display: none;
+        }
+    }
 }
