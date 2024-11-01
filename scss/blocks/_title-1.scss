@@ -1,4 +1,8 @@
 .title-1 {
     font-weight: 600;
     font-size: 32px;
+
+    @media (max-width: 1139px) {
+        font-size: 26px;
+    }
 }

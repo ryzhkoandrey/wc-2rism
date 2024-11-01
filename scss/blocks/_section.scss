@@ -5,22 +5,38 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 64px;
+
+        @media (max-width: 1139px) {
+            margin-bottom: 34px;
+        }
     }
 
     &__cards {
         display: grid;
         gap: 32px;
 
-        &--2-in-row {
-            grid-template-columns: repeat(2, 1fr);
+        &--6-in-row {
+            grid-template-columns: repeat(6, 1fr);
+
+            @media (max-width: 1139px) {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            @media (max-width: 640px) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            @media (max-width: 440px) {
+                grid-template-columns: 1fr;
+            }
         }
 
         &--4-in-row {
             grid-template-columns: repeat(4, 1fr);
         }
 
-        &--6-in-row {
-            grid-template-columns: repeat(6, 1fr);
+        &--2-in-row {
+            grid-template-columns: repeat(2, 1fr);
         }
     }
 }
