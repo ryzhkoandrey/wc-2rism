@@ -9,6 +9,7 @@
     &__row {
         display: grid;
         grid-template-columns: repeat(3, auto);
+        align-items: start;
         gap: 64px;
 
         @media (max-width: 1139px) {
@@ -17,6 +18,7 @@
 
         @media (max-width: 640px) {
             grid-template-columns: 1fr;
+            gap: 32px;
         }
     }
 
@@ -47,10 +49,16 @@
     &__nav-wrapper {
         display: flex;
         gap: 64px;
+
+        @media (max-width: 640px) {
+            justify-content: space-between;
+            gap: 20px;
+        }
     }
 
     &__nav {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         gap: 20px;
     }
 
